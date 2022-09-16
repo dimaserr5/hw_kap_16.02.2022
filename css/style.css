@@ -1,3 +1,18 @@
 .center_block {
-
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 50%;
+    display: flex;
+}
+.block_href {
+    border: 1px solid black;
+    width: 33%;
+    margin: 5px;
+    text-align: center;
 }
